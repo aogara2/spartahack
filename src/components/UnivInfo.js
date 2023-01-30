@@ -9,6 +9,7 @@ export default function UnivInfo(props) {
     const grad_rate = Math.round(Data.Graduation_graduated / Data.Graduation_in_Program * 100);
 
   return(
+    
     <div className="UnivInfo_Container">
       <ul>
         <li>

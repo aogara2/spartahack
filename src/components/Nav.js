@@ -3,6 +3,7 @@ import Link from 'next/link';
 export default function Nav() {
 
   return (
+    
 <div style={{width: "100%", minHeight: "60px",     backgroundColor:"#d2b48c", paddingLeft: "20px"}}>
           <div className='University_Toolbar'>
             <Link href={"../"} style={{color:"black"}}>

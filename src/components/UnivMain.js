@@ -15,22 +15,22 @@ export default function UnivMain (props) {
       <ul>
       <li>
         <div className="UnivMain_line">
-        University Name : {univ_name}
+        University Name: {univ_name}
         </div>
       </li>
       <li>
       <div className="UnivMain_line">
-        Tuition : ${tuition}
+        Tuition: ${tuition}
       </div>
       </li>
       <li>
       <div className="UnivMain_line">
-        Acceptance Rate : {acceptance_rate}%
+        Acceptance Rate: {acceptance_rate}%
       </div>
       </li>
       <li>
       <div className="UnivMain_line">
-        Graduation Rate : {grad_rate}%
+        Graduation Rate: {grad_rate}%
       </div>
       </li>
       </ul>

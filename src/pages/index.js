@@ -18,7 +18,6 @@ export default function Home() {
         width: "100vw",
         height: "100vh",
         
-
         }}>
       
       <h1 className='Main_h1'>

@@ -28,10 +28,12 @@ export default function ComparingUniv(props) {
     univ1_data = [univ1_2017.Tuition, univ1_2019.Tuition, univ1_2021.Tuition]
     univ2_data = [univ2_2017.Tuition, univ2_2019.Tuition, univ2_2021.Tuition]
   }
+
   if (attr == "Acceptance Rate") {
     univ1_data = [Math.round(univ1_2017.Accepted_Number/univ1_2017.Applied_Number * 10000) / 100, Math.round(univ1_2019.Accepted_Number/univ1_2019.Applied_Number * 10000) / 100, Math.round(univ1_2021.Accepted_Number/univ1_2021.Applied_Number * 10000) / 100]
     univ2_data = [Math.round(univ2_2017.Accepted_Number/univ2_2017.Applied_Number * 10000) / 100, Math.round(univ2_2019.Accepted_Number/univ2_2019.Applied_Number * 10000) / 100, Math.round(univ2_2021.Accepted_Number/univ2_2021.Applied_Number * 10000) / 100]
   }
+  
   if (attr == "Graduation Rate") {
     univ1_data = [Math.round(univ1_2017.Graduation_graduated / univ1_2017.Graduation_in_Program * 100), Math.round(univ1_2019.Graduation_graduated / univ1_2019.Graduation_in_Program * 100), Math.round(univ1_2021.Graduation_graduated / univ1_2021.Graduation_in_Program * 100)]
     univ2_data = [Math.round(univ2_2017.Graduation_graduated / univ2_2017.Graduation_in_Program * 100), Math.round(univ2_2019.Graduation_graduated / univ2_2019.Graduation_in_Program * 100), Math.round(univ2_2021.Graduation_graduated / univ2_2021.Graduation_in_Program * 100)]
